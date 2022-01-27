@@ -16,6 +16,5 @@ const galleryMarup = galleryItems.map(({ preview, original, description }) => {
 }).join("");
 
 galleryEl.insertAdjacentHTML("afterbegin", galleryMarup);
-console.log(document.querySelector(".gallery__image").alt)
 
-let lightbox = new SimpleLightbox('.gallery a', {captionsData:"alt", captionPosition:"bottom", captionDelay:250});
+let lightbox = new SimpleLightbox('.gallery a', { captionsData: "alt", captionPosition: "bottom", captionDelay: 250 });

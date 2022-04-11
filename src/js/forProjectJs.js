@@ -70,4 +70,5 @@ export function removeQueueFilmFromLocalStorage() {
 // addToLocalStorrageWhenStart();
 // testButton.addEventListener("click", handleForButton);
 // secondButton.addEventListener("click", secondTest);
-// // localStorage.clear()
+// localStorage.clear()
+
